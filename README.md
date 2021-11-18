@@ -1,4 +1,4 @@
-# Corne-ish Zen Custom Configuration
+# Corne-ish Zen Custom Configuration for 5 col bom board
 
 ![Corne-ish Zen Logo](zenlogo.png)
 
