@@ -28,7 +28,7 @@
     combos {
         compatible = "zmk,combos";
 
-          COMBO(escape, &kp ESCAPE, 2 3)
+          COMBO(escape, &kp ESCAPE, 0 12)
           COMBO(backspace, &kp BACKSPACE, 14 15)
           COMBO(quote, &kp APOSTROPHE, 30 31)
           COMBO(minus, &kp MINUS, 26 27)
