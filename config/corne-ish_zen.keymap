@@ -72,15 +72,15 @@
                 };
 
                 _fn3 {
-                        
+
 // -----------------------------------------------------------------------------------------
 // | BTCLR| BT0 | BT1 | BT2 | BT3 | BT4 |   |     |  7  |  8  |  9  |  -  | BKSP |
-// | CTRL |     |     |     |     |     |   |     |  4  |  5  |  6  |  +  |  *   |
+// | CTRL | rst |     |     |     |     |   |     |  4  |  5  |  6  |  +  |  *   |
 // | SHFT |     |     |     |     |     |   |     |  1  |  2  |  3  | ENT |  /   | // TODO: Fix this row when &mkp is committed
 //                    | GUI |     | BKSP|   | RET |  0  |  .  |
                         bindings = <
    BTCLR     BTSEL0   BTSEL1  BTSEL2   BTSEL3    BTSEL4      &trans &kp KP_N7 &kp KP_N8  &kp KP_N9 &kp KP_MINUS &kp BSPC
-   &kp LCTRL &trans   &trans  &trans   &trans    &trans      &trans &kp KP_N4 &kp KP_N5  &kp KP_N6 &kp KP_PLUS  &kp KP_MULTIPLY
+   &kp LCTRL &reset   &trans  &trans   &trans    &trans      &trans &kp KP_N4 &kp KP_N5  &kp KP_N6 &kp KP_PLUS  &kp KP_MULTIPLY
    &kp LSHFT &trans   &trans  &trans   &trans    &trans      &trans &kp KP_N1 &kp KP_N2  &kp KP_N3 &kp KP_ENTER &kp KP_SLASH
                       &kp LGUI     &kp ESC     &kp BSPC      &kp RET   &kp KP_N0   &kp KP_DOT
                         >;
